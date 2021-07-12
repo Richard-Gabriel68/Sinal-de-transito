@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #000;
+}
+.farol {
+    background-color: #555;
+    border-radius: 75px;
+    width: 25vw;
+    height: 90vh;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.luz {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(46, 46, 46);
+    margin: 0.3rem 0;
+}
+.red {
+    background-color: #ff0000;
+    box-shadow: 1px 1px 15px 10px rgb(238, 119, 119);
+}
+.yellow {
+    background-color: #ffff00;
+    box-shadow: 1px 1px 15px 10px rgb(247, 247, 166);
+}
+.green {
+    background-color: #00ff00;
+    box-shadow: 1px 1px 15px 10px rgb(166, 255, 166);
+}
+
+.controle {
+    position: fixed;
+    top:50px;
+    right: 50px;
+    padding: 20px;
+    border: 2px dashed #ccc;
+}
+button {
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: lightsalmon;
+}

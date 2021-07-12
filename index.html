@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/vue.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sinal</title>
+</head>
+<body>
+    
+    <section id="app">
+
+        <farol v-bind:status="luzStatus" @liberar="liberar"
+        @fechar="fechar"/>
+    
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
