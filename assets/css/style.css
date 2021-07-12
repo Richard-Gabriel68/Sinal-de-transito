@@ -49,3 +49,24 @@ button {
     border: none;
     background-color: lightsalmon;
 }
+
+/* RESPONSIVE -------------*/
+
+@media(max-width:550px) {
+    .farol {
+        width: 85vw;
+        height: 90vh;
+    
+    }
+    .luz {
+        
+    }
+    .controle {   
+    position: relative;
+    top:auto;
+    right: auto;
+    margin-top: 1rem;
+    padding: 5px;
+    border: 2px dashed #ccc;
+    }
+}
