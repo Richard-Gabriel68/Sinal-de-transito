@@ -55,7 +55,7 @@ button {
 @media(max-width:550px) {
     .farol {
         width: 85vw;
-        height: 90vh;
+        height: 80vh;
     
     }
     .luz {
